@@ -349,7 +349,7 @@
             const welcomeMessage = document.querySelector('.welcome-message');
             if (header && welcomeMessage) {
                 const headerHeight = header.offsetHeight;
-                welcomeMessage.style.marginTop = (headerHeight + 25) + 'px';
+                welcomeMessage.style.marginTop = (headerHeight + 125) + 'px';
             }
         });
 
