@@ -1,5 +1,5 @@
 // Configuración
-        const N8N_WEBHOOK_URL = 'https://n8n.holoments.com/webhook/937d8e90-81d6-4cf7-952c-1fd858dbd126/chat';
+        const N8N_WEBHOOK_URL = 'https://n8n.holoments.com/webhook/937d8e90-81d6-4cf7-952c-1fd858dbd126/chat'; // Webhook for testing purposes.
         
         let messageCount = 0;
         let userScrolledUp = false;
@@ -192,7 +192,7 @@
             if (sender === 'bot') {
                 const avatarImg = document.createElement('img');
                 avatarImg.src = '/images/CatBotLogo.png'; 
-                avatarImg.alt = 'CATbot';
+                avatarImg.alt = 'eCATbot';
                 avatarImg.onerror = function() { this.src='https://placehold.co/40x40/FFFFFF/764ba2?text=CB'; };
                 avatar.appendChild(avatarImg);
             } else {
@@ -244,7 +244,7 @@
             avatar.className = 'message-avatar';
             const avatarImg = document.createElement('img');
             avatarImg.src = '/images/CatBotLogo.png';
-            avatarImg.alt = 'CATbot';
+            avatarImg.alt = 'eCATbot';
             avatarImg.onerror = function() { this.src='https://placehold.co/40x40/FFFFFF/764ba2?text=CB'; };
             avatar.appendChild(avatarImg);
             
