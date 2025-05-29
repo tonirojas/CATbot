@@ -1,5 +1,5 @@
 // Configuración
-        const N8N_WEBHOOK_URL = 'https://n8n.holoments.com/webhook/937d8e90-81d6-4cf7-952c-1fd858dbd126/chat';
+        const N8N_WEBHOOK_URL = 'my webhook';
         
         let messageCount = 0;
         let userScrolledUp = false;
